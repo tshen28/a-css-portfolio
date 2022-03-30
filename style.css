@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header {
+    border-style: 0px solid cyan;
+    border-right: 0px;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    background-color: cyan;
+    margin: 10px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    color: cyan;
+}
+
+header li {
+    list-style: none;
+    padding: 10px;
+    font-size: larger;
+}
+
+main h2 {
+    text-align: right;
+    border: solid aliceblue;
+    background-color: aliceblue;
+    /* margin: 10px 10px; */
+    padding: 10px;
+}
+
+section {
+    display: flex;
+}
+
+.examples {
+    border-style: solid;
+    border-width: 5px;
+    border-color: cyan;
+    padding: 50px;
+    margin: 20px 10px;
+    background-image: url("https://place-puppy.com/200x200");
+}
+
+.examples h1 {
+    border: 5px solid cyan;
+    border-bottom: none;
+    background-color: cyan;
+}
+
+.examples p {
+    border: 5px solid cyan;
+    border-top: none;
+    background-color: cyan;
+}
+
+.contact li {
+    list-style: none;
+    display: inline;
+}
+
+.examples:hover {
+    box-shadow: 0px 0px 20px inset pink;
+}
