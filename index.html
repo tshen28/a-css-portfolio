@@ -6,65 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Taylor Shen</title>
 </head>
 
 <body>
     <!--Header-->
     <header>
-        <h1>This Assignment Was Hard</h1>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li> <a href="https://github.com/tshen28" target="_blank">Resume</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <h1 class="navbar-brand">Portfolio</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
     </header>
 
     <main>
-        <h2>I tried my best :(</h2>
-
         <!--About Me-->
-        <section id="about-me">
-            <div class="info1">
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eveniet tempore assumenda ea animi! Dignissimos tenetur ullam laborum totam eligendi perferendis nemo, ipsum incidunt impedit dolorum rem, enim dolores voluptatem.</p>
-            </div>
+        <section id="aboutMe">
+            <div class="card">
+                <h1 class="title">About Me</h1>
+                <div class="card-body">
+                    My name is Taylor Shen and I am an aspiring software developer. 
+                </div>
+              </div>
         </section>
 
         <!--Work Section-->
         <section id="work">
-            <div class="info2">
+            <div class="info2 bg-light">
                 <h1>Work</h1>
             </div>
-            <div>
-                <div class="examples">
-                    <h1>CSS Snippet</h1>
-                    <p>HTML/CSS</p>
+            <div class="workContainer">
+                <div class="card workCard" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Project 1</h5>
+                      <p class="card-text">First project featuring a cocktail generating app.</p>
+                      <a href="https://github.com/Jeff-T-Schmidt/First-Project" target="_blank" class="btn btn-primary">View</a>
+                    </div>
                 </div>
-                <div class="examples">
-                    <h1>Code Refactor</h1>
-                    <p>HTML/CSS</p>
+                <div class="card workCard" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Social Media API</h5>
+                      <p class="card-text">Homework assignment featuring a simple social media app.</p>
+                      <a href="https://github.com/tshen28/social-network-api" class="btn btn-primary">View</a>
+                    </div>
                 </div>
-                <div class="examples">
-                    <h1>First Repo</h1>
-                    <p>HTML/CSS</p>
+                <div class="card workCard" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">E-Commerce Backend</h5>
+                      <p class="card-text">Homework assignment featuring an e-commerce site backend using Insomnia.</p>
+                      <a href="https://github.com/tshen28/e-commerce-back-end" class="btn btn-primary">View</a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!--Contact Me-->
-        <section id="contact">
-            <div class="info3">
-                <h1>Contact Me</h1>
+        <div class="card" id="contact">
+            <div class="card-header">
+              Contact Me
+            </div>
+            <div class="card-body">
                 <ul>
-                    <li><a href="111-111-111">111-111-111</a></li>
-                    <li><a href="mailto:#">Email Me</a></li>
-                    <li><a href="#">Github</a></li>
+                    <li><a href="650-759-7764">650-759-7764</a></li>
+                    <li><a href="mailto:shen.taylor@yahoo.com">shen.taylor@yahoo.com</a></li>
+                    <li><a href="https://github.com/tshen28">Github</a></li>
                 </ul>
             </div>
-        </section>
+          </div>
     </main>
 </body>
 
