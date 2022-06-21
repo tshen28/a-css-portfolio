@@ -15,4 +15,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-Here is the mock-up of the assignment: ![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+## Links
+
+https://tshen28.github.io/a-css-portfolio/
+
+https://github.com/tshen28/a-css-portfolio
